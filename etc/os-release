@@ -1,0 +1,8 @@
+PRETTY_NAME="Huayra 3 (Debian #OSNAME# 8 (jessie))"
+NAME="Huayra #OSNAME#"
+VERSION_ID="3"
+VERSION="3 (sud)"
+ID=huayra
+HOME_URL="http://huayra.conectarigualdad.gob.ar/"
+SUPPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
+BUG_REPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
