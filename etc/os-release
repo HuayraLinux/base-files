@@ -1,12 +1,9 @@
-PRETTY_NAME="Huayra 3 (Debian #OSNAME# 8 (jessie))"
+PRETTY_NAME="Huayra 3"
 NAME="Huayra #OSNAME#"
 VERSION_ID="3"
 VERSION="3 (sud)"
 ID=huayra
+ID_LIKE=debian
 HOME_URL="http://huayra.conectarigualdad.gob.ar/"
 SUPPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
 BUG_REPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
-DISTRIB_ID=Huayra
-DISTRIB_RELEASE=3
-DISTRIB_CODENAME=sud
-DISTRIB_DESCRIPTION="Huayra 3 (sud)"

@@ -1,6 +1,7 @@
 base-files (8.0~huayra2) unstable; urgency=medium
 
   * Agrego keys a os-release
+  * Agrego lsb-release
 
  -- Mauro <mauro@sdf.org>  Thu, 12 Feb 2015 16:32:02 -0300
 
