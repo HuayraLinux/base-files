@@ -1,3 +1,9 @@
+base-files (8.0~huayra2) unstable; urgency=medium
+
+  * Agrego keys a os-release
+
+ -- Mauro <mauro@sdf.org>  Thu, 12 Feb 2015 16:32:02 -0300
+
 base-files (8.0~huayra1+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.

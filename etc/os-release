@@ -6,3 +6,7 @@ ID=huayra
 HOME_URL="http://huayra.conectarigualdad.gob.ar/"
 SUPPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
 BUG_REPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
+DISTRIB_ID=Huayra
+DISTRIB_RELEASE=3
+DISTRIB_CODENAME=sud
+DISTRIB_DESCRIPTION="Huayra 3 (sud)"
