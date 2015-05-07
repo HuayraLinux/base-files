@@ -1,3 +1,9 @@
+base-files (8.0~huayra3) unstable; urgency=medium
+
+  * Actualización a versión 3.1 de Huayra
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 07 May 2015 12:07:47 -0300
+
 base-files (8.0~huayra2) unstable; urgency=medium
 
   * Agrego keys a os-release
