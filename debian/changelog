@@ -1,3 +1,9 @@
+base-files (8.2~huayra1) unstable; urgency=medium
+
+  * Actualización a versión 3.2 de Huayra
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 20 Oct 2015 11:27:10 -0300
+
 base-files (8.0~huayra3) unstable; urgency=medium
 
   * Actualización a versión 3.1 de Huayra

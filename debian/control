@@ -1,7 +1,7 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Santiago Vila <sanvila@debian.org>
+Maintainer: Huayra Devs <huarya-devel@listas.huayragnulinux.com.ar>
 Standards-Version: 3.9.5
 
 Package: base-files
