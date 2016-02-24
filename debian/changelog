@@ -1,3 +1,9 @@
+base-files (8.3~huayra1) unstable; urgency=medium
+
+  * Actualización debian 8.3
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Feb 2016 12:51:37 -0300
+
 base-files (8.2~huayra1) unstable; urgency=medium
 
   * Actualización a versión 3.2 de Huayra
