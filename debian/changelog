@@ -1,3 +1,9 @@
+base-files (8.5~huayra2) unstable; urgency=medium
+
+  * version 4.0b (zonda) de Huayra
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 17 Aug 2016 12:35:17 -0300
+
 base-files (8.5~huayra1) unstable; urgency=medium
 
   * Actualización debian 8.3
