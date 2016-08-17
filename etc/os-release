@@ -1,7 +1,7 @@
-PRETTY_NAME="Huayra 3.2"
+PRETTY_NAME="Huayra 4.0b"
 NAME="Huayra #OSNAME#"
-VERSION_ID="3.2"
-VERSION="3.2 (sud)"
+VERSION_ID="4.0b"
+VERSION="4.0b (zonda)"
 ID=huayra
 ID_LIKE=debian
 HOME_URL="http://huayra.conectarigualdad.gob.ar/"
