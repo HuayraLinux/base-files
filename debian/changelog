@@ -1,3 +1,9 @@
+base-files (8.8~huayra1) sud-proposed; urgency=medium
+
+  * Actualización debian base 8.8
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 19 May 2017 11:58:36 -0300
+
 base-files (8.5~huayra1.1) sud-proposed; urgency=medium
 
   * Actualización de version Huayra 3.3
