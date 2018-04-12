@@ -1,3 +1,133 @@
+base-files (9.9+deb9u4+huayra1) unstable; urgency=medium
+
+  * Merge Debian 9 Stretch
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Apr 2018 11:19:14 -0300
+
+base-files (9.9+deb9u4) stretch; urgency=medium
+
+  * Change /etc/debian_version to 9.4, for Debian 9.4 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 24 Feb 2018 00:23:00 +0100
+
+base-files (9.9+deb9u3) stretch; urgency=medium
+
+  * Change /etc/debian_version to 9.3, for Debian 9.3 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 19 Nov 2017 16:25:10 +0100
+
+base-files (9.9+deb9u2) stretch; urgency=medium
+
+  * Change /etc/debian_version to 9.2, for Debian 9.2 point release.
+
+ -- Adam D. Barratt <adam@adam-barratt.org.uk>  Sat, 07 Oct 2017 13:17:53 +0100
+
+base-files (9.9+deb9u1) stable; urgency=low
+
+  * Change /etc/debian_version to 9.1, for Debian 9.1 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Thu, 13 Jul 2017 15:04:04 +0200
+
+base-files (9.9) unstable; urgency=medium
+
+  * Add MPL-1.1 and MPL-2.0 to common-licenses. Closes: #849835.
+    License texts taken from https://www.mozilla.org/en-US/MPL/.
+  * Add a default /etc/update-motd.d/10-uname script to
+    recover the traditional motd behaviour. Closes: #859124.
+
+ -- Santiago Vila <sanvila@debian.org>  Tue, 04 Apr 2017 18:00:30 +0200
+
+base-files (9.8) unstable; urgency=medium
+
+  * Release candidate for stretch as stable:
+  - Use "9" as version in /etc/issue and /etc/issue.net.
+    (never expected to change after stretch is released)
+  - Use 9.0 as version in /etc/debian_version.
+    (expected to change at every point release)
+  - Change PRETTY_NAME in /usr/lib/os-release, adding 9 as version number
+    and "(stretch)" as codename. Add also VERSION_ID and VERSION.
+    (never expected to change)
+  - Update README (stretch -> buster).
+  * Standards-Version: 3.9.8 (no special changes for this).
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 15 Jan 2017 23:00:02 +0100
+
+base-files (9.7) unstable; urgency=medium
+
+  * Do not care about /etc/nsswitch.conf anymore, as the file has been
+    moved to libc-bin. Closes: #827095.
+  [ Guillem Jover ]
+  * Do not use gzip compression anymore to build .deb and use the default.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 27 Nov 2016 19:29:38 +0100
+
+base-files (9.6) unstable; urgency=low
+
+  * Add lintian override for /etc/os-release.
+  * Add lintian overrides for /usr/share/common-licenses.
+  * Standards-Version: 3.9.7 (no special changes for this).
+  * Switch to dh. Hopefully this should make the package easier
+    to fork. Closes: #693423.
+  * Change default /etc/profile to not warn about possibly undefined
+    variables PS1 and BASH. Closes: #776154.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 04 Mar 2016 17:33:40 +0100
+
+base-files (9.5) unstable; urgency=medium
+
+  * os-release: Drop trailing slash in SUPPORT_URL variable, as the URL
+    is not supposed to have it. Closes: #781809, #800791.
+
+ -- Santiago Vila <sanvila@debian.org>  Wed, 28 Oct 2015 23:29:08 +0100
+
+base-files (9.4) unstable; urgency=medium
+
+  * Fix two install_from_default() calls in postinst that were still
+    using the old calling convention, making debootstrap to fail.
+    Thanks to Steven Shiau for the report. Closes: #795952
+
+ -- Santiago Vila <sanvila@debian.org>  Tue, 18 Aug 2015 12:06:00 +0200
+
+base-files (9.3) unstable; urgency=medium
+
+  * Change /usr/share/base-files/dot.profile (the default /root/.profile)
+    to not fail with new mesg behaviour in stretch. Closes: #794727.
+  * Add extra code in postinst so that people who never modified
+    their /root/.profile from jessie get the fixed version. This is
+    done by the update_to_current_default() function, which is now
+    more general and allows updating files not in /etc.
+  * While we are at it, modify install_from_default() function so that
+    it's called in the same simplified way as update_to_current_default().
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 17 Aug 2015 17:50:38 +0200
+
+base-files (9.2) unstable; urgency=medium
+
+  * Create md5sums in a reproducible way.
+  * Use "dpkg-parsechangelog -S Date" to get the date.
+  * Allow building with umasks other than 022, as far as
+    they make a minimum of sense. Closes: #774498.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 17 May 2015 14:44:10 +0200
+
+base-files (9.1) unstable; urgency=low
+
+  * Use gzip -n to stop recording current time in gzip headers.
+  * Fix mtimes before building the binary package.
+  * The package should now build reproducibly. Closes: #774498.
+    Thanks to Jérémy Bobbio <lunar@debian.org>.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 15 May 2015 12:45:34 +0200
+
+base-files (9) unstable; urgency=medium
+
+  * Changed issue, issue.net, debian_version and os-release to read
+    "stretch/sid", and dropped VERSION and VERSION_ID from os-release.
+  * Changed HOME_URL and SUPPORT_URL is os-release from http to https,
+    as those are the preferred URLs now.
+
+ -- Santiago Vila <sanvila@debian.org>  Thu, 30 Apr 2015 12:00:50 +0200
+
 base-files (8.5~huayra2) unstable; urgency=medium
 
   * version 4.0b (zonda) de Huayra

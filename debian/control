@@ -1,16 +1,18 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Huayra Devs <huarya-devel@listas.huayragnulinux.com.ar>
-Standards-Version: 3.9.5
+Maintainer: Equipo Huayra <equipohuayra@gmail.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
 
 Package: base-files
 Provides: base
 Architecture: any
 Pre-Depends: awk
+Depends: ${misc:Depends}
 Essential: yes
 Priority: required
-Replaces: base, miscutils, dpkg (<= 1.15.0), huayra-base (<= 3.0 )
+Replaces: base, miscutils, dpkg (<= 1.15.0)
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Multi-Arch: foreign
 Description: Debian base system miscellaneous files

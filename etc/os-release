@@ -1,9 +1,9 @@
-PRETTY_NAME="Huayra 4.0b"
+PRETTY_NAME="Huayra 4.0"
 NAME="Huayra #OSNAME#"
-VERSION_ID="4.0b"
-VERSION="4.0b (zonda)"
+VERSION_ID="4.0"
+VERSION="4.0 (zonda)"
 ID=huayra
 ID_LIKE=debian
 HOME_URL="http://huayra.conectarigualdad.gob.ar/"
-SUPPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
-BUG_REPORT_URL="http://bugs.huayra.conectarigualdad.gob.ar/"
+SUPPORT_URL="http://bugs-huayra.conectarigualdad.gob.ar/"
+BUG_REPORT_URL="http://bugs-huayra.conectarigualdad.gob.ar/"
