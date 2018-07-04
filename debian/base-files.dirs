@@ -29,6 +29,7 @@ usr/share/info
 usr/share/lintian/overrides
 usr/share/man
 usr/share/misc
+usr/share/python-apt/templates
 usr/src
 var
 var/backups

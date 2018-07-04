@@ -1,3 +1,9 @@
+base-files (9.9+deb9u4+huayra2) unstable; urgency=medium
+
+  * Agregado templates para python-apt
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 04 Jul 2018 15:48:15 -0300
+
 base-files (9.9+deb9u4+huayra1) unstable; urgency=medium
 
   * Merge Debian 9 Stretch
