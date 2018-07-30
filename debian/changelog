@@ -1,3 +1,9 @@
+base-files (9.9+deb9u5+huayra1) unstable; urgency=medium
+
+  * upgrade a debian 9.5
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 30 Jul 2018 15:58:12 -0300
+
 base-files (9.9+deb9u4+huayra2) unstable; urgency=medium
 
   * Agregado templates para python-apt
