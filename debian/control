@@ -12,7 +12,7 @@ Pre-Depends: awk
 Depends: ${misc:Depends}
 Essential: yes
 Priority: required
-Replaces: base, miscutils, dpkg (<= 1.15.0)
+Replaces: base, miscutils, dpkg (<= 1.15.0), python-apt-common (<= 0.9.3.12huayra2)
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Multi-Arch: foreign
 Description: Debian base system miscellaneous files

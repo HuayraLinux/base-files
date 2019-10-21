@@ -1,3 +1,9 @@
+base-files (9.9+deb9u11+huayra2) unstable; urgency=medium
+
+  * fix archivo Huayra.info de python-apt-common
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 17 Oct 2019 11:13:37 -0300
+
 base-files (9.9+deb9u11+huayra1) unstable; urgency=medium
 
   * update 9.9+deb9u11
