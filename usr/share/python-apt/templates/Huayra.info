@@ -4,7 +4,7 @@
 
 Suite: zonda
 RepositoryType: deb
-BaseURI: http://repo-huayra.conectarigualdad.gob.ar/huayra/
+BaseURI: http://repo.huayra.educar.gob.ar/huayra/
 MatchURI: huayra
 MirrorsFile: Huayra.mirrors
 Description: Huayra 4 'zonda'
