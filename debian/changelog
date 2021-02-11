@@ -1,3 +1,9 @@
+base-files (10.3+deb10u8+huayra2) unstable; urgency=medium
+
+  * fix de VERSION_CODENAME en /etc/os-release 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 11 Feb 2021 11:24:19 -0300
+
 base-files (10.3+deb10u8+huayra1) unstable; urgency=medium
 
   * Merge con Debian Buster 
