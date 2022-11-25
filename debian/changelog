@@ -1,3 +1,9 @@
+base-files (11.1+deb11u6+huayra2) unstable; urgency=medium
+
+  * agregando suites huayra 6
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 24 Nov 2022 23:49:56 -0300
+
 base-files (11.1+deb11u6+huayra1) unstable; urgency=medium
 
   * bump version upgrade to Huayra 6.0

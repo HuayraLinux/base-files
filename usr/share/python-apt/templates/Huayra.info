@@ -1,4 +1,55 @@
 ############
+# Huayra 6 #
+############
+
+Suite: norte
+RepositoryType: deb
+BaseURI: http://repo.huayra.educar.gob.ar/huayra/
+MatchURI: huayra
+MirrorsFile: Huayra.mirrors
+Description: Huayra 6 'norte'
+Component: main
+CompDescription: Soportado oficialmente
+Component: contrib
+CompDescription: Paquetes compatibles con la DFSG con dependencias no-libres
+Component: non-free
+CompDescription: Paquetes incompatibles con DFSG
+
+Suite: norte-updates
+RepositoryType: deb
+Description: Actualizaciones de Huayra
+ParentSuite: norte
+
+Suite: norte-proposed
+RepositoryType: deb
+Description: Actualizaciones en pruebas de Huayra
+ParentSuite: norte
+
+#############
+# Debian 11 #
+#############
+
+Suite: bullseye/updates
+RepositoryType: deb
+BaseURI: http://security.debian.org/
+MatchURI: security\.debian\.org
+MirrorsFile: Debian.mirrors
+ParentSuite: norte
+Description: Actualizaciones de seguridad de Debian
+
+Suite: bullseye-updates
+RepositoryType: deb
+MirrorsFile: Debian.mirrors
+ParentSuite: norte
+Description: Actualizaciones recomendadas de Debian
+
+Suite: bullseye-proposed-updates
+RepositoryType: deb
+MirrorsFile: Debian.mirrors
+ParentSuite: nortel
+Description: Actualizaciones en pruebas de Debian
+
+############
 # Huayra 5 #
 ############
 
@@ -7,7 +58,7 @@ RepositoryType: deb
 BaseURI: http://repo.huayra.educar.gob.ar/huayra/
 MatchURI: huayra
 MirrorsFile: Huayra.mirrors
-Description: Huayra 4 'austral'
+Description: Huayra 5 'austral'
 Component: main
 CompDescription: Soportado oficialmente
 Component: contrib
