@@ -1,3 +1,71 @@
+base-files (11.1+deb11u6+huayra1) unstable; urgency=medium
+
+  * bump version upgrade to Huayra 6.0
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 24 Nov 2022 23:31:46 -0300
+
+base-files (11.1+deb11u5) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.5, for Debian 11.5 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 03 Sep 2022 14:10:00 +0200
+
+base-files (11.1+deb11u4) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.4, for Debian 11.4 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Thu, 30 Jun 2022 23:35:00 +0200
+
+base-files (11.1+deb11u3) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.3, for Debian 11.3 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 19 Mar 2022 14:46:00 +0100
+
+base-files (11.1+deb11u2) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.2, for Debian 11.2 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 11 Dec 2021 18:25:00 +0100
+
+base-files (11.1+deb11u1) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.1, for Debian 11.1 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 03 Oct 2021 11:15:00 +0200
+
+base-files (11.1) unstable; urgency=medium
+
+  * Use https where appropriate, namely, origins/debian (currently used)
+    and share/staff-group-for-usr-local (not anymore). Closes: #959470.
+  * Gracefully handle /usr/share/info not existing. Closes: #977113.
+  * Use $() instead of `` where appropriate, namely, the default files
+    for /etc/profile and /root/.bashrc. Closes: #982687.
+  * Update share/profile.md5sums as the default file has changed.
+  * Update build-dependency on debhelper.
+  * Release candidate for bullseye as stable:
+  - Use "11" as version in /etc/issue and /etc/issue.net.
+    (never expected to change after buster is released)
+  - Use 11.0 as version in /etc/debian_version.
+    (expected to change at every point release)
+  - Change PRETTY_NAME in /usr/lib/os-release, adding 11 as version number
+    and "(bullseye)" as codename. Add also VERSION_ID and VERSION.
+    (never expected to change)
+  - Add VERSION_CODENAME to os-release.
+    (only expected on stable releases)
+  - Update README (bullseye -> bookworm).
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 10 Apr 2021 22:15:00 +0200
+
+base-files (11) unstable; urgency=medium
+
+  * Change issue, issue.net, debian_version and os-release to read
+    "bullseye/sid".
+  * Drop VERSION, VERSION_ID and CODENAME from os-release.
+  * Make "mesg n" silent in default /root/.profile. Closes: #930654.
+
+ -- Santiago Vila <sanvila@debian.org>  Tue, 09 Jul 2019 12:05:50 +0200
+
 base-files (10.3+deb10u12+huayra1) unstable; urgency=medium
 
   * Update to debian 10.12

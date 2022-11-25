@@ -108,7 +108,7 @@ if [ ! -f /var/lib/dpkg/status ]; then
   chmod 644 /var/lib/dpkg/status
 fi
 
-if [ ! -f /usr/info/dir ] && [ ! -f /usr/share/info/dir ]; then
+if [ -d /usr/share/info ] && [ ! -f /usr/info/dir ] && [ ! -f /usr/share/info/dir ]; then
   install_from_default info.dir /usr/share/info/dir
   chmod 644 /usr/share/info/dir
 fi
