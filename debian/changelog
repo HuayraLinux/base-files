@@ -1,3 +1,9 @@
+base-files (11.1+deb11u7+huayra2) unstable; urgency=medium
+
+  * Salto de version para pisar la actualizacion de debian
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 03 May 2023 11:44:52 -0300
+
 base-files (11.1+deb11u6+huayra2) unstable; urgency=medium
 
   * agregando suites huayra 6
