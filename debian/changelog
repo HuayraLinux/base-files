@@ -1,8 +1,27 @@
+base-files (11.1+deb11u7+huayra3) unstable; urgency=medium
+
+  * cambio /etc/debian_version a 11.7
+  * La iso Huarya 6 release salio con el valor 11.5 por olvidar este update
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 22 Jun 2023 18:43:33 -0300
+
 base-files (11.1+deb11u7+huayra2) unstable; urgency=medium
 
   * Salto de version para pisar la actualizacion de debian
 
  -- Matias De lellis <mati86dl@gmail.com>  Wed, 03 May 2023 11:44:52 -0300
+
+base-files (11.1+deb11u7) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.7, for Debian 11.7 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 02 Apr 2023 13:55:00 +0200
+
+base-files (11.1+deb11u6) bullseye; urgency=medium
+
+  * Change /etc/debian_version to 11.6, for Debian 11.6 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 09 Dec 2022 20:15:00 +0100
 
 base-files (11.1+deb11u6+huayra2) unstable; urgency=medium
 
