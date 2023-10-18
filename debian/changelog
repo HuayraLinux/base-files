@@ -1,3 +1,10 @@
+base-files (12.4+deb12u2+huayra1) unstable; urgency=medium
+
+  * Nueva version Huayra 6.5
+  * dist-upgrade Debian 12
+
+ -- Daniel Ferro <dferro@educar.gob.ar>  Wed, 18 Oct 2023 14:23:05 -0300
+
 base-files (11.1+deb11u7+huayra3) unstable; urgency=medium
 
   * cambio /etc/debian_version a 11.7
