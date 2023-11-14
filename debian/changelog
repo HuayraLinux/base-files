@@ -1,3 +1,9 @@
+base-files (11.1+deb11u8+huayra1) unstable; urgency=medium
+
+  * Change /etc/debian_version to 11.8, for Debian 11.8 point release.
+
+ -- Daniel Ferro <dferro@educar.gob.ar>  Thu, 09 Nov 2023 14:24:08 -0300
+
 base-files (11.1+deb11u7+huayra3) unstable; urgency=medium
 
   * cambio /etc/debian_version a 11.7
