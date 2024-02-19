@@ -1,8 +1,8 @@
-PRETTY_NAME="Huayra 6.0"
+PRETTY_NAME="Huayra 6.5"
 NAME="Huayra #OSNAME#"
-VERSION_ID="6.0"
-VERSION="6.0 (norte)"
-VERSION_CODENAME="norte"
+VERSION_ID="6.5"
+VERSION="6.5 (rafaga)"
+VERSION_CODENAME="rafaga"
 ID=huayra
 ID_LIKE=debian
 HOME_URL="https://huayra.educar.gob.ar/"

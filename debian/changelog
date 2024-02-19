@@ -1,3 +1,110 @@
+base-files (12.4+deb12u5+huayra1) unstable; urgency=medium
+
+  * upgrade para Huayra 6.5 
+  * changelog de debian 12
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 19 Feb 2024 15:07:56 -0300
+
+base-files (12.4+deb12u5) bookworm; urgency=medium
+
+  * Change /etc/debian_version to 12.5, for Debian 12.5 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 28 Jan 2024 22:20:00 +0100
+
+base-files (12.4+deb12u4) bookworm; urgency=medium
+
+  * Change /etc/debian_version to 12.4, for Debian 12.4 point release.
+
+ -- Adam D Barratt <adam@adam-barratt.org.uk>  Sat, 09 Dec 2023 21:08:29 +0000
+
+base-files (12.4+deb12u3) bookworm; urgency=medium
+
+  * Change /etc/debian_version to 12.3, for Debian 12.3 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sat, 02 Dec 2023 23:34:00 +0100
+
+base-files (12.4+deb12u2+huayra1) unstable; urgency=medium
+
+  * Nueva version Huayra 6.5
+  * dist-upgrade Debian 12
+
+ -- Daniel Ferro <dferro@educar.gob.ar>  Wed, 18 Oct 2023 14:23:05 -0300
+
+base-files (12.4+deb12u2) bookworm; urgency=medium
+
+  * Change /etc/debian_version to 12.2, for Debian 12.2 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 29 Sep 2023 22:04:00 +0200
+
+base-files (12.4+deb12u1) bookworm; urgency=medium
+
+  * Change /etc/debian_version to 12.1, for Debian 12.1 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 14 Jul 2023 18:00:00 +0200
+
+base-files (12.4) unstable; urgency=medium
+
+  * Release candidate for bookworm as stable:
+  - Use "12" as version in /etc/issue and /etc/issue.net.
+    (never expected to change after release)
+  - Use 12.0 as version in /etc/debian_version.
+    (expected to change at every point release)
+  - Change PRETTY_NAME in /usr/lib/os-release, adding 12 as version number
+    and "(bookworm)" as codename. Add also VERSION_ID and VERSION.
+    (never expected to change)
+  - Variable VERSION_CODENAME was already defined as "bookworm".
+  - Update README (bookworm -> trixie).
+  * Refresh GFDL-1.2, GFDL-1.3, GPL-3, LGPL-2 and LGPL-3 from their
+    canonical place at https://ftp.gnu.org/gnu/Licenses/ as they have
+    minor editorial changes like trimming spaces, https, etc.
+  * Drop debian/current-md5sums-obsolete. Closes: #1009358.
+  * Ship a real debian/copyright file in source package instead of
+    generating it at build time.
+  * Call dh_installchangelogs using --no-trim option.
+    Add versioned build-dependency on debhelper for the above.
+  * Update lintian-overrides to new format.
+  * Rules-Requires-Root: binary-targets.
+  * Update standards version to 4.6.2.
+
+ -- Santiago Vila <sanvila@debian.org>  Thu, 02 Mar 2023 14:55:00 +0100
+
+base-files (12.3) unstable; urgency=high
+
+  * Add VERSION_CODENAME to /etc/os-release. Closes: #1008735.
+    This still respects the fact that Debian distributions do not have
+    a version number until they are actually released as stable, but makes
+    /etc/os-release a little bit more useful for those who use testing as
+    a pre-release for the next stable. Those users are also the reason why
+    in this case we are simply using the string "bookworm".
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 03 Oct 2022 23:30:00 +0200
+
+base-files (12.2) unstable; urgency=medium
+
+  * A simplified version of the patch for DPKG_ROOT was applied, but the
+    simplification went too far and was incorrect. Closes: #824594.
+  * Use $() instead of `` when calling md5sum.
+
+ -- Santiago Vila <sanvila@debian.org>  Wed, 19 Jan 2022 23:35:00 +0100
+
+base-files (12.1) unstable; urgency=medium
+
+  * Add support for DPKG_ROOT to postinst. Closes: #824594
+
+ -- Santiago Vila <sanvila@debian.org>  Wed, 19 Jan 2022 22:40:00 +0100
+
+base-files (12) unstable; urgency=medium
+
+  * Do not create /var/run/utmp in postinst, as /var/run is
+    ephemeral and it does not make sense. Closes: #989725.
+  * Do not create /var/lib/dpkg/status if missing anymore,
+    as dpkg already does that. Closes: #989726.
+  * Change issue, issue.net, debian_version and os-release to read
+    "bookworm/sid". Closes: #992369.
+  * Drop VERSION, VERSION_ID and CODENAME from os-release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 22 Aug 2021 19:00:00 +0200
+
 base-files (11.1+deb11u8+huayra1) unstable; urgency=medium
 
   * Change /etc/debian_version to 11.8, for Debian 11.8 point release.
